@@ -46,7 +46,7 @@ footer {
     font-size: 18px;
     font-weight: 500;
     padding-bottom: 27px;
-    
+
 }
 
 .text-main p {
@@ -70,12 +70,18 @@ footer {
 /* .text-contact p {
 } */
 
-.text-contact p a {
+/* .text-contact p a {
+    color: #bcbcbc;
+    text-decoration: none;
+    
+} */
+
+.footer-box a {
     color: #bcbcbc;
     text-decoration: none;
 }
 
-.menu-adout {
+.menu-about {
     margin-left: 145px;
     font-family: 'Nunito Sans';
     color: #bcbcbc;
@@ -85,7 +91,12 @@ footer {
     text-align: left;
 }
 
-.menu-adout p {}
+/* .menu-about a{
+    color: #bcbcbc;
+    text-decoration: none;
+} */
+
+.menu-about p {}
 
 .menu-contact {
     margin-left: 55px;
@@ -108,11 +119,13 @@ footer {
     line-height: 24px;
     text-align: left;
 }
+
 @media all and (max-width: 800px) {
     .footer-box {
         justify-content: space-around;
     }
 }
+
 @media all and (max-width: 500px) {
     .footer-box {
         flex-direction: column;
