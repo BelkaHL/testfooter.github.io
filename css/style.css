@@ -80,7 +80,13 @@ footer {
     color: #bcbcbc;
     text-decoration: none;
 }
-
+.footer-box a:active {
+    color: #b0c1e6;
+}
+.footer-box a:hover {
+    color: #ebe8e8;
+    font-weight: bolder;
+}
 .menu-about {
     margin-left: 145px;
     font-family: 'Nunito Sans';
